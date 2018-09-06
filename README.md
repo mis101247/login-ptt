@@ -1,7 +1,7 @@
 # ptt登入爬蟲
 
 利用Node.js+ GoogleChrome/puppeteer https://github.com/GoogleChrome/puppeteer
-至(https://term.ptt.cc/)進行登入後隨即登出，
+至 https://term.ptt.cc/ 進行登入後隨即登出，
 配合pm2設置排程可用來做每日登入。
 
 
