@@ -1,0 +1,12 @@
+{
+  "name": "loginPtt",
+  "version": "1.0.0",
+  "main": "start.js",
+  "author": "keyo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "puppeteer": "^1.7.0",
+    "sleep": "^5.2.3"
+  }
+}
