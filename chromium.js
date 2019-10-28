@@ -17,9 +17,15 @@ const chromium = {
     init: async () => {
         if (browser) return browser
 
-        const config = (process.env.ENVIRONMENT == 0) ? { devtools: true } : { devtools: false};
+        const useDevTools = (process.env.ENVIRONMENT == 0);
+        const config = {
+            args: [
+                '--disable-web-security',
+            ],
+            devtools: useDevTools,
+        }
 
-        browser = await puppeteer.launch(config);
+        browser = await puppeteer.launch(config);        
         return browser
     },
     get browser() {
