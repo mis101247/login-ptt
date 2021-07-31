@@ -34,8 +34,8 @@ const chromium = require('./chromium').default;
                         await page.keyboard.press('Enter');
                         break;
                     case /離開，再見…/g.test(pageContent):
-                        console.log(`沈睡的毛利小五郎 讓他睡一下 ${process.env.STAYING_TIME}s`)
-                        await sleep.sleep(process.env.STAYING_TIME * 1)
+                        console.log(`沈睡的毛利小五郎 讓他睡一下 ${process.env.STAYINGTIME}s`)
+                        await sleep.sleep(process.env.STAYINGTIME * 1)
                         await page.type('html', 'g');
                         pressEnter = true;
                         break;
