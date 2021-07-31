@@ -7,6 +7,6 @@
   "dependencies": {
     "dotenv": "^6.0.0",
     "puppeteer": "^1.7.0",
-    "sleep": "^5.2.3"
+    "sleep": "^6.3.0"
   }
 }
