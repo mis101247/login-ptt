@@ -31,8 +31,10 @@
 ## 執行
 
 ```shell
-node start
+node index
 ```
+
+GET 127.0.0.1:3000
 
 ## Demo
 

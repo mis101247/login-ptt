@@ -1,12 +1,16 @@
 {
   "name": "loginPtt",
   "version": "1.0.0",
-  "main": "start.js",
+  "main": "index.js",
   "author": "keyo",
   "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "dotenv": "^6.0.0",
     "puppeteer": "^1.7.0",
-    "sleep": "^6.3.0"
+    "sleep": "^6.3.0",
+    "express": "^4.16.3"
   }
 }
